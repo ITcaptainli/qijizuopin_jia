@@ -94,24 +94,6 @@
       ],
       'hot'=>[
         [
-          'id'=>13,
-          'bookName'=>'美女的贴身私教',
-          'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/04/K2OXgTQyOK.jpg?imageView2/1/w/200/h/267',
-          'brief'=>'身为一名私人教练，李修要做的事情，就是让他的会员摆脱不完美！女明星腰痛？来来来，我给你上两节私教课，包治百病！武林高手遭遇突破瓶颈？来来来，来上我的私教课，包你修为突飞猛进！这个世界上没有什么不完美的人，如果有，那是因为他们没有遇到我。',
-          'author'=>'朱公子',
-          'label'=>'都市小说',
-          'numberWords'=>'165812'
-        ],
-        [
-          'id'=>14,
-          'bookName'=>'无尽星海',
-          'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/20/oFBBJnMbpW.jpg?imageView2/1/w/200/h/267',
-          'brief'=>'每一个轮回之时都会出现命运之子，每一次都会为宇宙填上一笔曙光，只当宿命重叠只时，背负着使命，阿瑞斯的诸王，地球文明的存亡，前世的爱恨情仇，还有那藏在幕后人物，一切都逼着他变大强大！',
-          'author'=>'蔚蓝',
-          'label'=>'科幻末世',
-          'numberWords'=>'88200'
-        ],
-        [
           'id'=>15,
           'bookName'=>'美女的贴身私教',
           'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/04/K2OXgTQyOK.jpg?imageView2/1/w/200/h/267',
@@ -130,7 +112,16 @@
           'numberWords'=>'88200'
         ],
         [
-          'id'=>14,
+          'id'=>17,
+          'bookName'=>'美女的贴身私教',
+          'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/04/K2OXgTQyOK.jpg?imageView2/1/w/200/h/267',
+          'brief'=>'身为一名私人教练，李修要做的事情，就是让他的会员摆脱不完美！女明星腰痛？来来来，我给你上两节私教课，包治百病！武林高手遭遇突破瓶颈？来来来，来上我的私教课，包你修为突飞猛进！这个世界上没有什么不完美的人，如果有，那是因为他们没有遇到我。',
+          'author'=>'朱公子',
+          'label'=>'都市小说',
+          'numberWords'=>'165812'
+        ],
+        [
+          'id'=>18,
           'bookName'=>'无尽星海',
           'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/20/oFBBJnMbpW.jpg?imageView2/1/w/200/h/267',
           'brief'=>'每一个轮回之时都会出现命运之子，每一次都会为宇宙填上一笔曙光，只当宿命重叠只时，背负着使命，阿瑞斯的诸王，地球文明的存亡，前世的爱恨情仇，还有那藏在幕后人物，一切都逼着他变大强大！',
@@ -139,7 +130,16 @@
           'numberWords'=>'88200'
         ],
         [
-          'id'=>15,
+          'id'=>19,
+          'bookName'=>'无尽星海',
+          'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/20/oFBBJnMbpW.jpg?imageView2/1/w/200/h/267',
+          'brief'=>'每一个轮回之时都会出现命运之子，每一次都会为宇宙填上一笔曙光，只当宿命重叠只时，背负着使命，阿瑞斯的诸王，地球文明的存亡，前世的爱恨情仇，还有那藏在幕后人物，一切都逼着他变大强大！',
+          'author'=>'蔚蓝',
+          'label'=>'科幻末世',
+          'numberWords'=>'88200'
+        ],
+        [
+          'id'=>20,
           'bookName'=>'美女的贴身私教',
           'imgUrl'=>'https://qijiupload-1251952132.picsh.myqcloud.com/storage/uploads/cover/2018/06/04/K2OXgTQyOK.jpg?imageView2/1/w/200/h/267',
           'brief'=>'身为一名私人教练，李修要做的事情，就是让他的会员摆脱不完美！女明星腰痛？来来来，我给你上两节私教课，包治百病！武林高手遭遇突破瓶颈？来来来，来上我的私教课，包你修为突飞猛进！这个世界上没有什么不完美的人，如果有，那是因为他们没有遇到我。',

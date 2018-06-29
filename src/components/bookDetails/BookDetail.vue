@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="bookDetail">
     <vue-top class="publicTop"></vue-top>
     <book-content class="bookContent" :bookContent="bookContent" :isVip="isVip" :many="many"></book-content>
     <book-catalog class="catalog" :catalog="catalog"></book-catalog>
     <book-review class="bookReview" :bookReview="bookReview"></book-review>
+    <book-other class="bookOther" :otherBooks="otherBooks"></book-other>
+    <book-hot class="bookHot" :bookHot="bookHot"></book-hot>
     <div class="button zoom">
       <div class="appendShelf">加入书架</div>
       <div class="rightOffread">立即阅读</div>
@@ -16,6 +18,8 @@ import VueTop from '../public/Top'
 import BookContent from './BookContent'
 import BookCatalog from './BookCatalog'
 import BookReview from './BookReview'
+import BookOther from './BookOther'
+import BookHot from './BookHot'
 import ajax from '../../assets/js/axios.js'
 export default {
   name: 'BookDetail',
@@ -25,14 +29,18 @@ export default {
       isVip: 0,
       many: '',
       catalog: {},
-      bookReview: {}
+      bookReview: {},
+      otherBooks: [],
+      bookHot: []
     }
   },
   components: {
     VueTop,
     BookContent,
     BookCatalog,
-    BookReview
+    BookReview,
+    BookOther,
+    BookHot
   },
   methods: {
     getData () {
@@ -51,6 +59,8 @@ export default {
         this.many = resData.data.bookContent.many
         this.catalog = resData.data.catalog
         this.bookReview = resData.data.bookReview
+        this.otherBooks = resData.data.otherBooks
+        this.bookHot = resData.data.hot
       }
     }
   },
@@ -66,6 +76,8 @@ export default {
   .zoom
     overflow: hidden
     zoom: 1
+  .bookDetail
+    padding-bottom: 0.43rem
   .button
     width: $w375
     height: 0.44rem

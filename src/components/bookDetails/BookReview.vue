@@ -29,7 +29,6 @@ export default {
     overflow: hidden
     zoom: 1
   .bookReview
-    padding-bottom: 0.43rem
     background: $bgColor-white
     .title
       height: $spot-5
